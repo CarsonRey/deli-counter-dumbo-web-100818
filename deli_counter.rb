@@ -2,7 +2,6 @@ def line(katz_deli)
   current_line = []
   katz_deli.each_with_index do |name, index|
       current_line << " #{index + "1".to_i}. #{name}"
-    
     end
   if katz_deli.length <= 0 
     puts "The line is currently empty."
